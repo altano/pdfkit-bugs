@@ -1,0 +1,23 @@
+{
+  "name": "@altano/pdfkit-bug",
+  "version": "0.0.1-alpha.1",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.mjs",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/index.js"
+  },
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "dependencies": {
+    "open": "^9.1.0",
+    "pdfkit": "^0.13.0",
+    "tmp-promise": "^3.0.3"
+  },
+  "devDependencies": {
+    "@types/pdfkit": "^0.12.10",
+    "typescript": "^5.2.2"
+  }
+}
